@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Maestro2496/ecs-latest-deploy
+        uses: Maestro2496/ecs-latest-deploy@172520260e3e0555c52fc3b4df32587813c2e8de
         with:
           who-to-greet: "MEDETON"
       # Use the output from the `hello` step
